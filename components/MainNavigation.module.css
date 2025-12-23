@@ -1,0 +1,233 @@
+.mainDiv {
+  display: inline-flex;
+  flex-direction: row;
+  margin: 10px 10px;
+
+}
+
+@media(max-width: 768px){
+
+}
+.avatar {
+  vertical-align: middle;
+  width: 51px;
+  height: 51px;
+  margin-top: var(--space-4);
+  margin-bottom: var(--space-4);
+  object-fit: cover;
+	border-radius: inherit;
+
+}
+
+.iconDiv{
+  margin-left: 100px;
+  object-fit: cover;
+  height: 20px;
+}
+
+.link_headerLeft {
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 120px;
+  padding: 5px 30px;
+  top: 20px;
+}
+
+.link_headerDiv {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 8px 6px;
+}
+
+
+
+.link_headerRight{
+  display: inline-flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 20px;
+  padding: 0px 30px;
+
+}
+
+.linkdiv>a {
+  color: rgba(0, 0, 0, 0.87);
+  display: inline-block;
+  font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-feature-settings: "calt";
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  line-height: 21px;
+  margin: 0px 20px;
+  padding: 40px 0px; 
+}
+
+
+.linkdivButtonOne{
+  border: #000000;
+  border-style: solid ;
+  border-width: 1px;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  float: none;
+  line-height: 10px;
+  margin: 0px 16px;
+  padding: 2px 0px;
+  min-width: 35px;
+  min-height: 25px;
+  position: relative;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.linkdivButtonTwo {
+  /* border: #000000; */
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 100px;
+  background: #000000;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  float: none;
+  line-height: 10px;
+  margin: 0px 16px;
+  padding: 2px 0px;
+  min-width: 35px;
+  min-height: 25px;
+  position: relative;
+  padding: 12px 16px;
+  text-align: center;
+  text-decoration: none;
+  transition: all .2s ease;
+}
+
+.linkDivStore {
+  align-items: center;
+  border-radius: 0px;
+  background: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: space-evenly;
+  line-height: 22px;
+  margin: 8px 60px;
+  position: absolute;
+  text-align: center;
+  right: 295px;
+
+}
+
+.linkDivSignIn {
+  align-items: center;
+  border-radius: 0px;
+  background: none;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: space-evenly;
+  line-height: 22px;
+  margin: 8px 20px;
+  position: absolute;
+  text-align: center;
+  right: 195px;
+}
+
+.linkDivJoinNow {
+  align-items: center;
+  background: none;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1.4;
+  padding: 2px 0px;
+  position: absolute;
+  right: 95px;
+
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+/*BottomHalf.js Styling*/
+.linkDivFlex {
+  display: flex;
+  flex-direction: row;
+  cursor: pointer;
+  justify-content: left;
+  align-items: flex-start;
+  position: static;
+  padding: 24px 0px;
+  font-size: 1rem;
+  font-family:  SoDoSans,Helvetica Neue,Helvetica,Arial,sans-serif;
+  bottom: 10px;
+}
+
+.linkDivFlex  a{
+  color: rgba(0, 0, 0, 0.58);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.linkDivFlexSpacing{
+  margin: 0px 20px;
+}
+
+.footerContainer {
+  display: inline-flex;
+  cursor: pointer;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: left;
+  align-items: flex-start;
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+}
+
+
+.footerP  {
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 20px 0px;
+  color: rgba(0, 0, 0, .58);
+}
+.social {
+  display: flex;
+  align-items: left;
+  margin: 10px 0px;
+}
+.social img {
+  width: 35px;
+  height: 35px;
+}
+
+.social a {
+  text-decoration: none;
+  margin-right: 50px;
+}
+.rowContainer {
+  display: inline-flex;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: static;
+  align-items:flex-start;
+  line-height: 24px;
+}
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  color: #000;
+  margin: 0px auto;
+}

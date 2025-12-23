@@ -1,0 +1,19 @@
+.linkDivStore {
+    align-items: center;
+    border-radius: 0px;
+    background: none;
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    line-height: 22px;
+    margin: 4px 40px;
+    position: absolute;
+    text-align: center;
+    right: 410px;
+    top: 20px;
+  }
+
+  .findAStore:hover {
+    color: #008248;
+    transition: all 0.1s;
+  }

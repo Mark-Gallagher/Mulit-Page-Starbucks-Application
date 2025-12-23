@@ -1,0 +1,304 @@
+
+.menuNavBar{
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #edebe9;
+    border-color: #f9f9f9;
+    justify-content: space-evenly;
+    margin: 0px;
+    position: static;
+    padding-left: 52px;
+    /* padding-right: 40px; */
+    top: 0;
+    width: 100%;
+}
+
+.menuNavBar>ul{
+    align-items: center;
+    display: block;
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+.menuNavItem {
+    align-items: center;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin: 8px 20px;
+}
+
+.menuNav>a {
+    color: rgba(0, 0, 0, 0.87);
+    display: inline-block;
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.4px;
+    line-height: 21px;
+    margin: 0px 20px;
+    padding: 40px 0px;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.menuWithSideNav{
+    box-sizing: border-box;
+    display: flex !important;
+    padding-left: 20px;
+   
+}
+
+.sidebarList {
+    display: block;
+    cursor: pointer;
+    justify-content: space-between;
+    margin-left: 50px;
+    position: static;
+    padding: 20px 58px;
+}
+
+.menuInnerSection{
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 0px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: auto;
+    padding: 20px 18px;
+}
+
+.drinksArrayListContainer {
+    box-sizing: border-box;
+    display: block;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 16px 20px;
+    
+}
+
+.drinksArrayListContainer > h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.drinksArrayList {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    position: static;
+}
+
+.drinksArrayListItem {
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    margin-right: 20px;
+    position: relative;
+    padding: 0px 22px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px
+}
+
+.drinksArrayList img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 40px 10px;
+}
+
+.drinksArrayListItem > a {
+    display: inline-flex;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    padding: 60px 0px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.foodsArrayListContainer {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.foodsArrayListContainer h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.foodsArrayList {
+    /* align-items: flex-start;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start; */
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    position: static;
+}
+
+.foodsArrayListItem{
+    display: inline-flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    margin-right: 20px;
+    position: relative;
+    padding: 0px 22px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px
+}
+
+.foodsArrayListItem img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 40px 10px;
+}
+
+.foodsArrayListItem a{
+    display:inline-flex;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    padding: 60px 0px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+.homecoffeeArrayListContainer {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    justify-content: space-between;
+    padding: 16px 20px;
+}
+
+.homecoffeeArrayListContainer h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.homecoffeeArrayList {
+    align-items: flex-start;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.homecoffeeArrayListItem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    position: relative;
+    padding: 0px 22px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px
+}
+
+.homecoffeeArrayList img {
+    border-radius: 50%;
+    width: 125px;
+    height: 100px;
+    margin: 40px 10px;
+}
+
+.homecoffeeArrayListItem a {
+    display: inline-flex;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    padding: 60px 0px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
+
+.merchandiseArrayListContainer {
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    justify-content: space-evenly;
+    padding: 20px 20px;
+}
+
+.merchandiseArrayListContainer h4 {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.merchandiseArrayList {
+    align-items: flex-start;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.merchandiseArrayListItem {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 32px;
+    position: relative;
+    padding: 0px 22px;
+    text-align: left;
+    vertical-align: top;
+    width: 220px
+}
+
+.merchandiseArrayList img {
+    border-radius: 50%;
+    width: 125px;
+    height: 100px;
+    margin: 40px 10px;
+}
+
+.merchandiseArrayListItem a {
+    display: inline-flex;
+    color: rgba(0, 0, 0, 0.87);
+    font-family: SoDoSans, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-feature-settings: "calt";
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    text-align: left;
+}
+
+/*%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%*/
